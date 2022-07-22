@@ -1,0 +1,43 @@
+@import "fonts";
+
+.mynav{
+    font-family: 'Squada One', regular;
+}
+
+.main_front_tittle{
+    font-family: 'Squada One', regular;
+    font-size: 75px;
+}
+.front_container{
+    background-image: url(../img/portada-min.png);
+    background-size: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 80vh;
+}
+
+.container_page_standard{
+    background-image: url(../img/fondo.jpg);
+    background-size: 100% 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: fit-content;
+    margin-bottom: 7vh;
+    
+}
+.views-row{
+    h3{
+        color: aliceblue;
+        background-color: rgba(0, 0, 0, 0.7);
+        font-family: 'Squada One', regular;
+    }
+}
+
+.menu_child{
+    color: rgb(44, 44, 44);
+    
+    a{
+        color: rgb(44, 44, 44);
+        
+    }
+}

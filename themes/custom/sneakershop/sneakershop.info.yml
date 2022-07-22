@@ -1,0 +1,18 @@
+name: Sneakers Shop
+type: theme
+description: 'Tienda de zapatos basado en Bootstrap Barrio'
+core: 8.x
+core_version_requirement: ^8 || ^9
+base theme: bootstrap_barrio
+
+libraries:
+  - sneakershop/bootstrap_cdn
+  - sneakershop/global-styling
+
+regions:
+  header: Header
+  primary_menu: 'Primary menu'
+  content: Content
+  sidebar: 'Sidebar'
+  footer: 'Footer'
+

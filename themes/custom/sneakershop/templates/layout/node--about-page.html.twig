@@ -1,0 +1,10 @@
+
+
+<div class="row justify-content-end">
+{% for autor in content.field_autor_names['#items'].getValue() %}
+    <div class="col-md-auto">
+    {{content.field_icon}}
+    <h5 class="text-sm-center">{{autor.value}}</h5>
+    </div>
+{% endfor %}
+</div>

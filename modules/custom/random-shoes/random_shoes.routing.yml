@@ -1,0 +1,7 @@
+random_shoes.content:
+  path: '/random-dogs'
+  defaults:
+    _controller: '\Drupal\random_shoes\Controller\RandomShoesController::getRandomDogs'
+    _title: 'Random Dogs'
+  requirements:
+    _permission: 'permiso'

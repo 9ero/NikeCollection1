@@ -1,0 +1,5 @@
+name: Random Dogs
+type: module
+description: This module generates Random Dogs
+package: Random Shoes
+core_version_requirement: ^8 || ^9

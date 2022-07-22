@@ -1,0 +1,18 @@
+<?php
+
+/**
+ * @file
+ * Installation file for the Random Shoes module.
+ */
+
+use Drupal\user\RoleInterface;
+
+/**
+ * Implements hook_install().
+ */
+function random_shoes_install()
+{
+  user_role_change_permissions(RoleInterface::ANONYMOUS_ID, array(
+    'permiso' => TRUE,
+  ));
+}
